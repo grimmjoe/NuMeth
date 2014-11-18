@@ -1,0 +1,25 @@
+<RCC>
+<qresource>
+	<file>images/new.png</file>
+	<file>images/open.png</file>
+	<file>images/save.png</file>
+	<file>images/nm.jpg</file>
+	<file>images/lagrange.png</file>
+	<file>images/newton.png</file>
+	<file>images/simpson.png</file>
+	<file>images/linearConst.png</file>
+	<file>images/exit.png</file>
+	<file>images/rec.png</file>
+	<file>images/trap.png</file>
+	<file>images/funcCalc.png</file>
+	<file>images/gauss.png</file>
+	<file>images/splash.jpg</file>
+	<file>images/nm.png</file>
+	<file>images/seqConst.png</file>
+	<file>images/tchebishev.png</file>
+	<file>images/lagrangeCalc.png</file>
+	<file>images/newtonCalc.png</file>
+	<file>images/divdiff.png</file>
+	<file>images/errorLag.png</file>
+</qresource>
+</RCC>
