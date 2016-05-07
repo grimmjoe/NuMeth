@@ -3,9 +3,11 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = NuMeth
 DEPENDPATH += .
 INCLUDEPATH += .
+
+QT += core gui widgets
 
 # Input
 HEADERS += cmp.h \

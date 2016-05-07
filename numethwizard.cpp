@@ -1,4 +1,4 @@
-#include <QtGui>
+#include <QtWidgets>
 #include "numethwizard.h"
 
 NuMethWizard::NuMethWizard(QWidget *parent)

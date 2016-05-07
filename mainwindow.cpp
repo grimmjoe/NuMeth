@@ -1,4 +1,4 @@
-#include <QtGui>
+#include <QtWidgets>
 #include <fstream>
 #include "mainwindow.h"
 #include "interpolation.h"
@@ -937,7 +937,7 @@ void MainWindow::integrateRectangle()
 void MainWindow::integrateGauss()
 {
 	bool ok = true;
-    int n = QInputDialog::getInteger(this, tr("NuMeth"),
+    int n = QInputDialog::getInt(this, tr("NuMeth"),
                         tr("Enter the number of points in Gauss formula(from 1 to 4): "),
                         3, 1, 4, 1, &ok);
 	if (ok) {
@@ -1029,7 +1029,7 @@ void MainWindow::constSequence()
     bool ok = true;
     int def = 1;
     do {
-        int n = QInputDialog::getInteger(this, tr("NuMeth: Equidistance interpolation"), tr("Enter the "
+        int n = QInputDialog::getInt(this, tr("NuMeth: Equidistance interpolation"), tr("Enter the "
                         "interpolation polynom degree:"), def, 1, 40, 1, &ok);
         if (ok) {
             QVector<QPointF> data;
@@ -1062,7 +1062,7 @@ void MainWindow::tchebishevSequence()
     bool ok = true;
     int def = 1;
     do {
-        int n = QInputDialog::getInteger(this, tr("NuMeth: Optimal interpolation"), tr("Enter the "
+        int n = QInputDialog::getInt(this, tr("NuMeth: Optimal interpolation"), tr("Enter the "
                     "interpolation polynom degree:"), def, 1, 40, 1, &ok);
         if (ok) {
             QVector<QPointF> data;
